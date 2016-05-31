@@ -13,7 +13,7 @@ using namespace std;
 
 class ManejadorDepartamentos{
 private:
-      static ManejadorDepartamentos*intancia;
+      static ManejadorDepartamentos*instancia;
       ManejadorDepartamentos();
       map<string,Departamento*>*departamentos;
 
