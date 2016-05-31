@@ -22,7 +22,7 @@ public:
 	virtual void ingresarNuevaCasa(DataPropiedad* casa) = 0;
 	virtual void ingresarPrecioAlquiler(DataAlquiler* pAlquiler) = 0;
 	virtual void ingresarNuevoApartamento(DataPropiedad* apartamento) = 0;
-	virtual void ingresarPrecioVenta() = 0;
+	virtual void ingresarPrecioVenta(DataVenta* pVenta) = 0;
 	virtual set<DataDepartamento*>* listarDepartamentos() = 0;
 	virtual set<DataEdificio*>* listarEdificios() = 0;
 	virtual set<DataZona*>* listarZonas() = 0;
